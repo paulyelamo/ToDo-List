@@ -1,0 +1,25 @@
+body, html {
+     height: 100%;
+}
+
+.background{
+     background-image: url("../Backgrounds/1920x1080/Ondas-Amarillas.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     max-width: 100%;
+}
+
+.fa, .far, .fas
+{
+     font-family: 'Baloo Bhaina 2', bold !important;
+}
+
+i::before
+{
+     font-family: "Font Awesome 5 Free";
+}
+
+#test{
+     height: 550px;
+}
