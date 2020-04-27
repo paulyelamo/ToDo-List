@@ -63,13 +63,9 @@ document.querySelector('#pending').addEventListener("click", function(e){
           toDelete = toDelete.substring(0, toDelete.length -2 );
           
           memory.forEach(function(element, index){
-               console.log("ELEMENT: " + element + " " + typeof element);
-               console.log("A ELIMINAR: "+toDelete + " " + typeof toDelete);
                if( element == toDelete)
                {
-                    console.log("ENTRE");
                     memory.splice(index, 1);
-                    console.log("SPLICE:"+memory);
                }
           });
 
